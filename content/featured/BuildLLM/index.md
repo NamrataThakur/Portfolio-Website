@@ -15,4 +15,4 @@ tech:
 - Implemented a **GPT2 (124M)** like LLM <u>from scratch</u>, block by block, using **PyTorch**.
   &nbsp;
 
-- Coded the entire training pipeline, (again) from scratch, in modular fashion to incorporate different types of dataset creation and training strategies (**Supervised FT**, **Instruction FT** and **Preference FT using DPO**) <u>WITHOUT</U> the use of any external package.
+- Coded the entire training pipeline, (again) from scratch, in modular fashion utilising OOPs concepts to incorporate different types of dataset creation and training strategies (**Supervised FT**, **Instruction FT** and **Preference FT using DPO**) <u>WITHOUT</U> the use of any external package.
