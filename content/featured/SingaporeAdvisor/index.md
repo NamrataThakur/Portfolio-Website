@@ -13,16 +13,13 @@ tech:
   - Flask
 ---
 
-- Sentiment mining on Singapore attractions.
-  &nbsp;
-
-- Created a detailed **NLP** pipeline for sentiment classification and aspect based sentiment analysis (**ASBA**) on 195K+ reviews (extracted using **BeautifulSoup**) covering 20 popular attractions in Singapore.
-  &nbsp;
-
-- Designed an ensemble architecture using the **XgBoost** and Fine-tuned **BERT** for multi-class (5 classes) classification to get overall validation loss of 0.02.
-  &nbsp;
-
-- In addition, also examined the sentiments (positive, negative and neutral) for 120+ aspects covering 20 attractions using **Topic Modelling** based aspect mining and fine-tuned BERT to get more fine-grained insights.
-  &nbsp;
-
-- A **conversational chatbot** is also created for easy user interaction.
+- Developed a comprehensive **NLP pipeline** for **sentiment classification** and **Aspect-Based Sentiment Analysis (ABSA)** on a corpus of over **195K** reviews, scraped using **BeautifulSoup**, spanning 20 major tourist attractions in Singapore.
+  <br>
+  <br>
+- Designed an ensemble classification architecture combining **fine-tuned BERT** and **XGBoost** to perform **5-class** multi-class classification, achieving a low **validation loss of 0.02**.
+  <br>
+  <br>
+- Additionally, performed **aspect-level sentiment analysis** across 120+ aspects covering 20 attractions by employing **Non-negative Matrix Factorization (NMF)** for topic-based aspect extraction and fine-tuned **BERT** for fine-grained sentiment classification into **positive**, **negative**, and **neutral** classes.
+  <br>
+  <br>
+- Built a **conversational chatbot** to facilitate intuitive user interaction, allowing dynamic querying of sentiment insights across attractions and aspects.

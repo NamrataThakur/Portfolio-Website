@@ -10,9 +10,12 @@ tech:
   - Deep Learning
   - Chainlit
   - LLM
+  - Fine-Tune
+  - Pre-Train
+  - DPO
 ---
 
-- Implemented a **GPT2 (124M)** like LLM <u>from scratch</u>, block by block, using **PyTorch**.
-  &nbsp;
-
-- Coded the entire training pipeline, (again) from scratch, in modular fashion utilising OOPs concepts to incorporate different types of dataset creation and training strategies (**Supervised FT**, **Instruction FT** and **Preference FT using DPO**) <u>WITHOUT</U> the use of any external package.
+- Reimplemented a **GPT-2 (124M)**-scale language model **from scratch**, constructing each architectural component block-by-block using **PyTorch**, closely following the original design specifications.
+  <br>
+  <br>
+- Developed a fully modular training pipeline from scratch using Object-Oriented Programming (OOP) principles, enabling seamless integration of various dataset creation and training strategies — including **Supervised Fine-Tuning (FT)**, **Instruction FT**, and **Preference FT using DPO** — **<u>WITHOUT</u> relying on any external libraries**.
